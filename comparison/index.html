@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://openvoiceos.github.io/community-docs/comparison/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Compared - Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../css/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Compared";
+        var mkdocs_page_input_path = "comparison.md";
+        var mkdocs_page_url = "/community-docs/comparison/";
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Home</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="..">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../why/">About</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../glossary/">Glossary</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../license/">License</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../friends/">Friends</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../faq/">F.A.Q.</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started Guide</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../getting_image/">Downloading an image</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../first_boot/">First boot</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../setup_network/">Network setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../setup_ovos/">Configuration</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Features and skills</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../standard_skills/">Standard skills</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../playing_music/">Playing music</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../playing_video/">Playing video</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Smartspeaker functionality</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../airplay/">Airplay</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../spotifyd/">Spotify connect</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../btspeaker/">Bluetooth speaker</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../kdeconnect/">KDE Connect</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">OVOS-core</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../core/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../bus_service/">Bus</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../skills_service/">Skills</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../speech_service/">Speech</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio_service/">Audio</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gui_service/">GUI</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config/">Configuration</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Skills</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../skills/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../skill_install/">Installing new skills</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../guidelines/">Design Guidelines</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../skill_structure/">Anatomy</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../statements/">Dialog</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../prompts/">Prompts</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../intents/">Intents</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../context/">Context</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../converse/">Converse</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../skill_filesystem/">Filesystem</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../skill_settings/">Skill Settings</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../skill_gui/">Skill GUI</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../skill_api/">Skill API</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../skill_json/">Skill Json</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../skill_tests/">Skill Tests</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../dev/">F.A.Q.</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">GUI</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../gui_intro/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../homescreen/">Homescreen</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../qml_guidelines/">QML Design Guidelines</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../linguistika/">Open Linguistika</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../shell/">Shell</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gui_protocol/">Protocol</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gui_extensions/">Extensions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../bigscreen/">Bigscreen</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Backend</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../backend/">Available Backends</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../backend_client/">Backend Client</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../personal_backend/">Personal Backend</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../backend_manager/">Backend Manager</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Plugins</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../OPM/">Plugin Manager</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../stt_plugins/">Speech To Text</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../tts_plugins/">Text To Speech</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../ww_plugins/">Wake Word</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../vad_plugins/">Voice Activity Detection</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../g2p_plugins/">Grapheme to Phoneme</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio_plugins/">Audio Playback</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../lang_plugins/">Language Detection/Translation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../PHAL/">Platform/Hardware Abstraction Layer</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Technologies</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../OCP/">Common Play</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../osm/">Skills Manager</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../OCA/">Config Assistant</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../stt_server/">STT Server</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../tts_server/">TTS Server</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../translate_server/">Translate Server</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mycroft</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../dinkum/">Dinkum</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../compat/">Compatibility</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../mycroft/">OVOS vs MyCroft</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Images</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../buildroot/">Buildroot</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../manjaro/">Manjaro</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Compared</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#openvoiceos-images">OpenVoiceOS images</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#friend-images">Friend Images</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mycroft-images">Mycroft Images</a>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Other Builds</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../raspbian_ovos/">Raspbian</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Images &raquo;</li>
+      <li>Compared</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="openvoiceos-vs-neon-ai-vs-mycroft-ai">OpenVoiceOS vs Neon A.I. vs Mycroft A.I.</h1>
+<h2 id="openvoiceos-images">OpenVoiceOS images</h2>
+<p>OpenVoiceOS ready to use images come in several flavours;
+The buildroot version, being the minimal consumer type of image and the Manjaro version, being the full distribution easy / easier for developing.</p>
+<p>a headless raspbian image is also maintained by the community</p>
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="center"><strong>OpenVoiceOS<br>(Buildroot)</strong></th>
+<th align="center"><strong>OpenVoiceOS<br>(Manjaro)</strong></th>
+<th align="center"><strong>OpenVoiceOS<br>(Raspbian)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>Operating System</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">Base OS</td>
+<td align="center">buildroot</td>
+<td align="center">manjaro</td>
+<td align="center">raspbian</td>
+</tr>
+<tr>
+<td align="left">Last updated - YYYY/MM/DD</td>
+<td align="center">2023-0?-??</td>
+<td align="center">2023-0?-??</td>
+<td align="center">2023-03-??</td>
+</tr>
+<tr>
+<td align="left"><strong>Software - Architecture</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">Core</td>
+<td align="center">ovos-core</td>
+<td align="center">ovos-core</td>
+<td align="center">ovos-core</td>
+</tr>
+<tr>
+<td align="left">GUI</td>
+<td align="center">ovos-shell<br><em>(mycroft-gui based)</em></td>
+<td align="center">ovos-shell<br><em>(mycroft-gui based)</em></td>
+<td align="center">N/A</td>
+</tr>
+<tr>
+<td align="left">Launcher</td>
+<td align="center">systemd<br>user session</td>
+<td align="center">systemd<br>system session</td>
+<td align="center">systemd<br>user session</td>
+</tr>
+<tr>
+<td align="left"><strong>Hardware - Compatibility</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">Raspberry Pi</td>
+<td align="center">3/3b/3b+/4</td>
+<td align="center">4</td>
+<td align="center">3/3b/3b+/4</td>
+</tr>
+<tr>
+<td align="left">X86_64</td>
+<td align="center"><em>planned</em></td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">Virtual Appliance</td>
+<td align="center"><em>planned</em></td>
+<td align="center">No</td>
+<td align="center">?</td>
+</tr>
+<tr>
+<td align="left">Docker</td>
+<td align="center">No<br><em>possibly in future</em></td>
+<td align="center">Yes</td>
+<td align="center">?</td>
+</tr>
+<tr>
+<td align="left">Mark-1</td>
+<td align="center"><strong>WIP</strong></td>
+<td align="center">No</td>
+<td align="center">No<br><em>possibly in future</em></td>
+</tr>
+<tr>
+<td align="left">Mark-2</td>
+<td align="center"><strong>WIP</strong><br>(no leds)</td>
+<td align="center"><strong>WIP</strong><br>(no leds)</td>
+<td align="center">partial<br>(no gui + manual install)</td>
+</tr>
+<tr>
+<td align="left">Mark-2  (dev kit)</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">partial<br>(no gui + manual install)</td>
+</tr>
+<tr>
+<td align="left"><strong>Hardware - Peripherals</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">ReSpeaker</td>
+<td align="center"><strong>WIP</strong><br>2-mic<br>4-mic squared<br>4-mic linear<br>6-mic</td>
+<td align="center"><strong>WIP</strong><br>2-mic<br>4-mic squared<br>4-mic linear<br>6-mic</td>
+<td align="center">manual install</td>
+</tr>
+<tr>
+<td align="left">USB</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="left">SJ-201</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">manual install</td>
+</tr>
+<tr>
+<td align="left">Google AIY v1</td>
+<td align="center">manual install</td>
+<td align="center">manual install</td>
+<td align="center">manual install</td>
+</tr>
+<tr>
+<td align="left">Google AIY v2</td>
+<td align="center">No<br><em>perhaps in the future</em></td>
+<td align="center">manual install</td>
+<td align="center">manual install</td>
+</tr>
+<tr>
+<td align="left"><strong>Screen - GUI</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">GUI supported<br><em>Showing a GUI if a screen is attached</em></td>
+<td align="center">Yes<br><em>ovos-shell on eglfs</em></td>
+<td align="center">Yes<br><em>ovos-shell on eglfs</em></td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left"><strong>Network Setup - Options</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">Mobile WiFi Setup<br><em>Easy device "hotspot"<br>to connect from phone</em></td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">On device WiFi Setup<br><em>Configure the connection<br>directly on screen</em></td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">On screen keyboard</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">Reconfigure network<br><em>Easy way to change the<br>network settings</em></td>
+<td align="center">Yes <br> (on screen)</td>
+<td align="center">Yes  <br> (on screen)</td>
+<td align="center">Yes  <br> (raspi-config)</td>
+</tr>
+<tr>
+<td align="left"><strong>Configuration - Option</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">Data privacy</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="left">Offline mode</td>
+<td align="center">Yes  <br> (setup skill)</td>
+<td align="center">Yes  <br> (setup skill)</td>
+<td align="center">yes  <br> (need to change default plugins)</td>
+</tr>
+<tr>
+<td align="left">Color theming</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">Non-Pairing mode</td>
+<td align="center">Yes  <br> (setup skill)</td>
+<td align="center">Yes   <br> (setup skill)</td>
+<td align="center">Yes<br> (preconfigured default)</td>
+</tr>
+<tr>
+<td align="left">API Access w/o pairing</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="left">On-Screen configuration</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">Online configuration</td>
+<td align="center">personal-backend + dashboard<br><strong>wip</strong></td>
+<td align="center">personal-backend + dashboard<br><strong>wip</strong></td>
+<td align="center">personal-backend + dashboard<br>(manual install)</td>
+</tr>
+<tr>
+<td align="left"><strong>Customization</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">Open Build System</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="left">Package manager</td>
+<td align="center">No<br><em>No buildtools available.<br>Perhaps opkg in the future</em></td>
+<td align="center">Yes<br><em>(pacman)</em></td>
+<td align="center">Yes<br><em>(apt)</em></td>
+</tr>
+<tr>
+<td align="left"><strong>Updating</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">Update mechanism(s)</td>
+<td align="center">pip <br>(bash scripts)<br><em>planned:Firmware updates.<br>On-device and Over The Air</em></td>
+<td align="center">pip <br>(bash scripts)</td>
+<td align="center">pip <br>(bash scripts)</td>
+</tr>
+<tr>
+<td align="left"><strong>Voice Assistant - Functionality</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">STT - On device</td>
+<td align="center">Yes<br><em>Kaldi/Vosk-API<br>WhisperCPP (WIP)<br>Whisper TFlite (WIP)</em></td>
+<td align="center">Yes<br><em>Kaldi/Vosk-API</em></td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">STT - On premises</td>
+<td align="center">Ovos STT Server<br>(any plugin)</td>
+<td align="center">Ovos STT Server<br>(any plugin)</td>
+<td align="center">Ovos STT Server<br>(any plugin)</td>
+</tr>
+<tr>
+<td align="left">STT - Cloud</td>
+<td align="center">Ovos Server Proxy<br>(google chromium)</td>
+<td align="center">Ovos Server Proxy<br>(google chromium)</td>
+<td align="center">Ovos Server Proxy<br>(google chromium)</td>
+</tr>
+<tr>
+<td align="left">TTS - On device</td>
+<td align="center">default: <strong>Mimic 1</strong></td>
+<td align="center">default: <strong>Mimic 1</strong></td>
+<td align="center">default: <strong>Mimic 1</strong></td>
+</tr>
+<tr>
+<td align="left">TTS - On premises</td>
+<td align="center">Ovos TTS Server<br>(any plugin)</td>
+<td align="center">Ovos TTS Server<br>(any plugin)</td>
+<td align="center">Ovos TTS Server<br>(any plugin)</td>
+</tr>
+<tr>
+<td align="left">TTS - Cloud</td>
+<td align="center">default: <strong>Mimic 3</strong></td>
+<td align="center">default: <strong>Mimic 3</strong></td>
+<td align="center">default: <strong>Mimic 3</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Smart Speaker - Functionality</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">Music player connectivity<br><em>use of external applications<br>on other devices</em></td>
+<td align="center">Yes<br><em>Airplay<br>Spotifyd<br>Bluetooth<br>Snapcast<br>KDE Connect</em></td>
+<td align="center">?</td>
+<td align="center">?</td>
+</tr>
+<tr>
+<td align="left">Music player sync</td>
+<td align="center">Yes<br><em>OCP<br>MPRIS</em></td>
+<td align="center">Yes<br><em>OCP<br>MPRIS</em></td>
+<td align="center">No<br><em>wip</em></td>
+</tr>
+<tr>
+<td align="left">HomeAssistant integration</td>
+<td align="center"><strong>WIP</strong><br><em>HomeAssistant<br>PHAL Plugin</em></td>
+<td align="center"><strong>WIP</strong><br><em>HomeAssistant<br>PHAL Plugin</em></td>
+<td align="center"><strong>WIP</strong><br><em>HomeAssistant<br>PHAL Plugin</em><br>(manual install)</td>
+</tr>
+<tr>
+<td align="left">Camera support</td>
+<td align="center">Yes</td>
+<td align="center"><em>wip</em></td>
+<td align="center"><em>wip</em></td>
+</tr>
+</tbody>
+</table>
+<h2 id="friend-images">Friend Images</h2>
+<p>Some other projects also provide images shipping OpenVoiceOS, such as Bigscreen, or some derivative voice assistant, such as NeonAI</p>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Neon AI</strong></th>
+<th align="center">Bigscreen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Operating System</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Base OS</td>
+<td align="center">debian</td>
+<td align="center">manjaro</td>
+</tr>
+<tr>
+<td align="center">Last updated - YYYY/MM/DD</td>
+<td align="center">2023-0?-??</td>
+<td align="center"><a href="https://github.com/manjaro-arm/bigscreen/releases">Rolling Release</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Software - Architecture</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Core</td>
+<td align="center">neon-core</td>
+<td align="center">ovos-core</td>
+</tr>
+<tr>
+<td align="center">GUI</td>
+<td align="center">ovos-shell<br><em>(mycroft-gui based)</em></td>
+<td align="center">Plasma Shell<br><em>(mycroft-gui embedded)</em></td>
+</tr>
+<tr>
+<td align="center">Launcher</td>
+<td align="center">systemd<br>system session</td>
+<td align="center">systemd<br>user</td>
+</tr>
+<tr>
+<td align="center"><strong>Hardware - Compatibility</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Raspberry Pi</td>
+<td align="center">4</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="center">X86_64</td>
+<td align="center">No</td>
+<td align="center">Manual Install</td>
+</tr>
+<tr>
+<td align="center">Virtual Appliance</td>
+<td align="center">?</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">Docker</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">Mark-1</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">Mark-2</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">Mark-2  (dev kit)</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center"><strong>Hardware - Peripherals</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">ReSpeaker</td>
+<td align="center">?</td>
+<td align="center">Yes (Manual Install)</td>
+</tr>
+<tr>
+<td align="center">USB</td>
+<td align="center">?</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="center">SJ-201</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">Google AIY v1</td>
+<td align="center">?</td>
+<td align="center">Yes (Manual Install)</td>
+</tr>
+<tr>
+<td align="center">Google AIY v2</td>
+<td align="center">?</td>
+<td align="center">Yes (Manual Install)</td>
+</tr>
+<tr>
+<td align="center"><strong>Screen - GUI</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">GUI supported<br><em>Showing a GUI if a screen is attached</em></td>
+<td align="center">Yes<br><em>ovos-shell on eglfs</em></td>
+<td align="center">Yes<br><em>plasma-bigscreen <br>X11 or Wayland</em></td>
+</tr>
+<tr>
+<td align="center"><strong>Network Setup - Options</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Mobile WiFi Setup<br><em>Easy device "hotspot"<br>to connect from phone</em></td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">On device WiFi Setup<br><em>Configure the connection<br>directly on device</em></td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="center">On screen keyboard</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="center">Reconfigure network<br><em>Easy way to change the<br>network settings</em></td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="center"><strong>Configuration - Option</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Data privacy</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="center">Offline mode</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="center">Color theming</td>
+<td align="center">Yes</td>
+<td align="center">System</td>
+</tr>
+<tr>
+<td align="center">Non-Pairing mode</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="center">API Access w/o pairing</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="center">On-Device configuration</td>
+<td align="center">Yes</td>
+<td align="center">?</td>
+</tr>
+<tr>
+<td align="center">Online configuration</td>
+<td align="center"><em>WIP</em></td>
+<td align="center">?</td>
+</tr>
+<tr>
+<td align="center"><strong>Customization</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Open Build System</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="center">Package manager</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="center"><strong>Updating</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Update mechanism(s)</td>
+<td align="center">Plugin-based mechanism</br>OS Updates <strong>WIP</strong></td>
+<td align="center">package manager</td>
+</tr>
+<tr>
+<td align="center"><strong>Voice Assistant - Functionality</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">STT - On device</td>
+<td align="center">default: <strong>Deepspeech</strong></td>
+<td align="center">Yes<br><em>Vosk</em></td>
+</tr>
+<tr>
+<td align="center">STT - On premises</td>
+<td align="center">Ovos STT Server<br>(any plugin)</td>
+<td align="center">Ovos STT Server<br>(any plugin)</td>
+</tr>
+<tr>
+<td align="center">STT - Cloud</td>
+<td align="center">Yes<br><em>Google</em></td>
+<td align="center">Ovos Server Proxy (google chromium)</td>
+</tr>
+<tr>
+<td align="center">TTS - On device</td>
+<td align="center">default: <strong>Coqui</strong></td>
+<td align="center">default: <strong>Mimic</strong></td>
+</tr>
+<tr>
+<td align="center">TTS - On premises</td>
+<td align="center">Ovos TTS Server<br>(any plugin)</td>
+<td align="center">Ovos TTS Server<br>(any plugin)</td>
+</tr>
+<tr>
+<td align="center">TTS - Cloud</td>
+<td align="center">default: <strong>Amazon Polly</strong></td>
+<td align="center">default: <strong>Mimic 2</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>Smart Speaker - Functionality</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Music player connectivity<br><em>use of external applications<br>on other devices</em></td>
+<td align="center">?</td>
+<td align="center">Yes<br><em>MPRIS (KDEKonnect)</em></td>
+</tr>
+<tr>
+<td align="center">Music player sync</td>
+<td align="center">Yes<br><em>OCP<br>MPRIS</em></td>
+<td align="center">Yes<br><em>OCP<br>MPRIS</em></td>
+</tr>
+<tr>
+<td align="center">HomeAssistant integration</td>
+<td align="center"><strong>WIP</strong><br><em>HomeAssistant<br>PHAL Plugin</em></td>
+<td align="center">Yes (Manual Install)<br><em>HomeAssistant<br>PHAL Plugin</em></td>
+</tr>
+<tr>
+<td align="center">Camera support</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="mycroft-images">Mycroft Images</h2>
+<p>MycroftAI also provides some images, we do not recommend using any of these but provide a table for comparison</p>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Mark I<br>(Classic Core)</strong></th>
+<th align="center"><strong>Mark II<br>(Dinkum)</strong></th>
+<th align="center"><strong>Picroft<br>(Classic Core)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Operating System</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Base OS</td>
+<td align="center">raspbian</td>
+<td align="center">pantacor containers</td>
+<td align="center">raspbian</td>
+</tr>
+<tr>
+<td align="center">Last updated - YYYY/MM/DD</td>
+<td align="center">20??-0?-??</td>
+<td align="center">2023-0?-??</td>
+<td align="center">20??-??-??</td>
+</tr>
+<tr>
+<td align="center"><strong>Software - Architecture</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Core</td>
+<td align="center">mycroft-core</td>
+<td align="center">Dinkum</td>
+<td align="center">mycroft-core</td>
+</tr>
+<tr>
+<td align="center">GUI</td>
+<td align="center">N/A</td>
+<td align="center">plasma-nano<br><em>(mycroft-gui based)</em></td>
+<td align="center">N/A</td>
+</tr>
+<tr>
+<td align="center">Launcher</td>
+<td align="center">?</td>
+<td align="center">Pantacor</td>
+<td align="center">bash script</td>
+</tr>
+<tr>
+<td align="center"><strong>Hardware - Compatibility</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Raspberry Pi</td>
+<td align="center">Mark I <br> (only)</td>
+<td align="center">Mark II<br>(only)</td>
+<td align="center">3/3b/3b/4</td>
+</tr>
+<tr>
+<td align="center">X86_64</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">Virtual Appliance</td>
+<td align="center">?</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">Docker</td>
+<td align="center">?</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">Mark-1</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">Mark-2</td>
+<td align="center">No</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">Mark-2  (dev kit)</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center"><strong>Hardware - Peripherals</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">ReSpeaker</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Yes<br><em>manual installation?</em></td>
+</tr>
+<tr>
+<td align="center">USB</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Yes<br><em>manual installation</em></td>
+</tr>
+<tr>
+<td align="center">SJ-201</td>
+<td align="center">No</td>
+<td align="center">Yes</td>
+<td align="center">No<br><em>sandbox image maybe</em></td>
+</tr>
+<tr>
+<td align="center">Google AIY v1</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No<br><em>manual installation?</em></td>
+</tr>
+<tr>
+<td align="center">Google AIY v2</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No<br><em>manual installation?</em></td>
+</tr>
+<tr>
+<td align="center"><strong>Screen - GUI</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">GUI supported<br><em>Showing a GUI if a screen is attached</em></td>
+<td align="center">No</td>
+<td align="center">Yes<br><em>plasma-nano on X11</em></td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center"><strong>Network Setup - Options</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Mobile WiFi Setup<br><em>Easy device "hotspot"<br>to connect from phone</em></td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">On device WiFi Setup<br><em>Configure the connection<br>directly on device</em></td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">On screen keyboard</td>
+<td align="center">No</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">Reconfigure network<br><em>Easy way to change the<br>network settings</em></td>
+<td align="center">Yes  <br> (mk1 menu)</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center"><strong>Configuration - Option</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Data privacy</td>
+<td align="center">Partial</td>
+<td align="center">Partial</td>
+<td align="center">Partial</td>
+</tr>
+<tr>
+<td align="center">Offline mode</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">Color theming</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">Non-Pairing mode</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">API Access w/o pairing</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">On-Device configuration</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">Online configuration</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="center"><strong>Customization</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Open Build System</td>
+<td align="center">Yes</td>
+<td align="center">Partial<br><em>build tools are not public</em></td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="center">Package manager</td>
+<td align="center">Yes</td>
+<td align="center">Yes<br>*limited becuase of read-only filesystem</td>
+<td align="center">Yes</td>
+</tr>
+<tr>
+<td align="center"><strong>Updating</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Update mechanism(s)</td>
+<td align="center">?</td>
+<td align="center">OTA<br><em>controlled by Mycroft</em></td>
+<td align="center">git pull</td>
+</tr>
+<tr>
+<td align="center"><strong>Voice Assistant - Functionality</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">STT - On device</td>
+<td align="center">No</td>
+<td align="center">Yes<br><em>Vosk</em><br><em>Coqui</em></td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">STT - On premises</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">STT - Cloud</td>
+<td align="center">default: <strong>Selene</strong><br>(Google Chromium Proxy)</td>
+<td align="center">default: <strong>Selene</strong><br>(Google Cloud Proxy)</td>
+<td align="center">default: <strong>Selene</strong><br>(Google Chromium Proxy)</td>
+</tr>
+<tr>
+<td align="center">TTS - On device</td>
+<td align="center">default: <strong>Mimic 1</strong></td>
+<td align="center">default: <strong>Mimic 3</strong></td>
+<td align="center">default: <strong>Mimic 1</strong></td>
+</tr>
+<tr>
+<td align="center">TTS - On premises</td>
+<td align="center">?</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">TTS - Cloud</td>
+<td align="center">default: <strong>Mimic 2</strong></td>
+<td align="center">default: <strong>Mimic 2</strong></td>
+<td align="center">default: <strong>Mimic 2</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>Smart Speaker - Functionality</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Music player connectivity<br><em>use of external applications<br>on other devices</em></td>
+<td align="center">No</td>
+<td align="center">Yes<br><em>MPD<br>Local Files</em></td>
+<td align="center">No<br><em>manual installation?</em></td>
+</tr>
+<tr>
+<td align="center">Music player sync</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="center">HomeAssistant integration</td>
+<td align="center">?</td>
+<td align="center">Yes<br>Mycroft Skill</td>
+<td align="center">?</td>
+</tr>
+<tr>
+<td align="center">Camera support</td>
+<td align="center">No</td>
+<td align="center">?</td>
+<td align="center">?</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../manjaro/" class="btn btn-neutral float-left" title="Manjaro"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../raspbian_ovos/" class="btn btn-neutral float-right" title="Raspbian">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../manjaro/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../raspbian_ovos/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
